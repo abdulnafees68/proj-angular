@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Change this if you're using a different branch
 
+permissions:
+  contents: write  # Allows pushing to the repository
+  pages: write     # Allows deploying to GitHub Pages
+
 jobs:
   build:
     runs-on: ubuntu-latest
