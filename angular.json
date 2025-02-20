@@ -30,6 +30,7 @@
               "src/styles.css"
             ],
             "scripts": []
+             "baseHref": "/proj-angular/" 
           },
           "configurations": {
             "production": {
