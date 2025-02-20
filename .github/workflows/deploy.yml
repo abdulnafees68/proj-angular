@@ -29,5 +29,4 @@ jobs:
         with:
           branch: gh-pages  # Deploy to this branch
           folder: dist/my-homepage  # Change this to your Angular build output folder
-           token: ${{ secrets.GITHUB_TOKEN }}  # This is the token that GitHub Actions automatically provides
-
+          token: ${{ secrets.GITHUB_TOKEN }}  # This is the token that GitHub Actions automatically provides
